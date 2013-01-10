@@ -110,10 +110,14 @@ body, html {
 header {
     background:#000;
     height:15%;
+    position:relative;
 }
 
 header a {
     color:#fff;
+    position:absolute;
+    top:40%;
+    left:5%;
 }
 
 .siteWrap section {
@@ -134,27 +138,18 @@ footer p {
 
 
 /* Profile View */
-.siteWrap .profile {
-    padding-top:5%;
-    height:65%;
-}
-
 .profile img {
     width:35%;
-    margin:50px 5%;
+    margin:100px 5% 0;
     float:left;
 }
 
-.profile h2 {
-    margin-top:100px;
-}
-
-.profile p, .profile h3 {
+.profile article {
+    padding-top:100px;
+    float:left;
     width:50%;
     margin:0 5% 0 0;
-    float:left;
 }
-
 
 
 
