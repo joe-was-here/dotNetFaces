@@ -1,0 +1,4 @@
+dotNetFaces
+===========
+
+Our faces project
