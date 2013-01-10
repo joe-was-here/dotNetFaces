@@ -99,6 +99,10 @@ body, html {
     height:100%;
 }
 
+body {
+    font-size:62.5%;
+}
+
 .siteWrap {
     width:85%;
     margin:0 auto;
@@ -120,37 +124,82 @@ header a {
     left:5%;
 }
 
-.siteWrap section {
+.siteWrap .team, .siteWrap .profile {
     height:70%;
+    overflow:auto;
 }
 
 footer {
     height:15%;
     background:#000;
-    clear:both;
 }
 
-footer p {
+footer p, .profile .comment article p {
     margin:0;
+}
+
+.clear {
+    clear:both;
 }
 
 /* Home Page */
 
 
 /* Profile View */
-.profile img {
+
+.profile .top {
+    margin:100px 0 40px;
+}
+
+.profile .top img {
     width:35%;
-    margin:100px 5% 0;
+    margin:0 5%;
     float:left;
 }
 
-.profile article {
-    padding-top:100px;
+.profile .top article {
     float:left;
     width:50%;
     margin:0 5% 0 0;
 }
 
+.profile .comments {
+    width:80%;
+    margin:0 auto 25px;
+    background:#f7f7f7;
+    border:1px solid #000;
+}
+
+.profile .comment {
+    height:auto;
+    padding:2% 3%;
+    border-bottom:1px solid #000;
+}
+
+.profile .comment img {
+    width:10%;
+    margin-right:3%;
+    float:left;
+}
+
+.profile .comment article {
+    float:left;
+    width:85%;
+    font-size:1.4em;
+}
+
+.profile .comment article a {
+    text-decoration:none;
+}
+
+.profile .comment article a:hover {
+    text-decoration:underline;
+}
+
+.profile .comment article span {
+    color:#7f7f7f;
+    font-size:1em;
+}
 
 
 
