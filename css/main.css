@@ -144,6 +144,9 @@ footer p, .profile .comment article p {
 
 /* Home Page */
 
+.team img {
+    width:100%;
+}
 
 /* Profile View */
 
