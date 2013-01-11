@@ -179,6 +179,29 @@ footer p, .profile .comment article p {
     cursor:pointer;
 }
 
+/* Clicked home page view */
+
+.team .clicked {
+    height:100%;
+    background:black;
+    display:none;
+}
+.team .clicked img {
+    max-width:200px;
+    position:absolute;
+    left:40%;
+}
+
+.team .clicked img.one, .team .clicked img.two {
+    max-width:254px;
+    position:absolute;
+    top:0;
+    left:200px;
+}
+.team .clicked img.two {
+    left:700px;
+}
+
 /* Profile View */
 
 .profile .top {

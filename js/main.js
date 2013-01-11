@@ -16,6 +16,15 @@ $(document).ready(function () {
         }, 50);
     });
 
+    $('area').click(function() {
+        if ( $(this).attr('id') === 'danny' ) {
+            console.log('fuck');
+            $('img[alt=Jerks]').hide(0);
+            $('.overlay').fadeOut(200);
+            $('.clicked').fadeIn(200);
+        }
+    });
+
     // $('area').click(function() {
     //     var that = $(this);
     //     console.log(that);
