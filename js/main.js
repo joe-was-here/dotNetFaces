@@ -10,9 +10,20 @@ $(document).ready(function () {
     },
     function () {
         var that = $(this);
+        $('.about').hide(0);
         setTimeout(function() {
             $('.' + that.attr('id')).hide(0).addClass('hidden');
         }, 50);
     });
+
+    // $('area').click(function() {
+    //     var that = $(this);
+    //     console.log(that);
+    //     $('.' + that.attr('id')+ 'Blurb').show(0).removeClass('hidden');
+    // });
+
+    // $('.about .close').click(function() {
+    //     $('.about').hide(0).addClass('hidden');
+    // });
 
 });

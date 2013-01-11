@@ -159,6 +159,26 @@ footer p, .profile .comment article p {
     opacity:.8;
 }
 
+.team article {
+    position:absolute;
+    display:block;
+    padding:10px;
+    background:#f7f7f7;
+    border:1px solid #000;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    z-index:500;
+    top:0;
+    font-size:1.6em;
+}
+
+.team article .close {
+    position:absolute;
+    top: 5px;
+    right:5px;
+    cursor:pointer;
+}
+
 /* Profile View */
 
 .profile .top {
