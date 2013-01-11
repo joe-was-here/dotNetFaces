@@ -144,8 +144,19 @@ footer p, .profile .comment article p {
 
 /* Home Page */
 
+.team {
+    position:relative;
+}
+
 .team img {
     width:100%;
+}
+
+.team .overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:.8;
 }
 
 /* Profile View */
