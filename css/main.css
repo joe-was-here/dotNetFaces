@@ -144,8 +144,62 @@ footer p, .profile .comment article p {
 
 /* Home Page */
 
+.team {
+    position:relative;
+}
+
 .team img {
     width:100%;
+}
+
+.team .overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:.8;
+}
+
+.team article {
+    position:absolute;
+    display:block;
+    padding:10px;
+    background:#f7f7f7;
+    border:1px solid #000;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    z-index:500;
+    top:0;
+    font-size:1.6em;
+}
+
+.team article .close {
+    position:absolute;
+    top: 5px;
+    right:5px;
+    cursor:pointer;
+}
+
+/* Clicked home page view */
+
+.team .clicked {
+    height:100%;
+    background:black;
+    display:none;
+}
+.team .clicked img {
+    max-width:200px;
+    position:absolute;
+    left:40%;
+}
+
+.team .clicked img.one, .team .clicked img.two {
+    max-width:254px;
+    position:absolute;
+    top:0;
+    left:200px;
+}
+.team .clicked img.two {
+    left:700px;
 }
 
 /* Profile View */
