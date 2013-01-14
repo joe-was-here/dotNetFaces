@@ -4,6 +4,7 @@ $(document).ready(function() {
     $('area').hover(function(){
         var that = $(this),
              areas = $('area');
+        console.log(that.attr('title'));
     },
     function(){
 
